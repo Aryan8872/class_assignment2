@@ -87,7 +87,7 @@ class SimpleInterestView extends StatelessWidget {
 
              Center(
               child: BlocBuilder<SimpleInterestCubit,double>(
-                builder:(context, state) =>Text("Simple Interest: $state",style: TextStyle(fontSize: 17),) ,
+                builder:(context, state) =>Text("Simple Interest: $state",style: TextStyle(fontSize: 17,color: Colors.black),) ,
                  )
               )
           ]

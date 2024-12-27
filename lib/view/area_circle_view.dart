@@ -52,7 +52,7 @@ class AreaCircleView extends StatelessWidget {
              SizedBox(height: 10,),
 
              Center(
-              child: BlocBuilder<AreaCircleCubit,double>(builder:(context, state) => Text("Area: $state",style: TextStyle(fontSize: 17),),)
+              child: BlocBuilder<AreaCircleCubit,double>(builder:(context, state) => Text("Area: $state",style: TextStyle(fontSize: 17,color: Colors.black),),)
               
               )
           ]
